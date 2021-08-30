@@ -5,7 +5,8 @@ RUN apk update && \
   apk add --no-cache \
   python3=3.8.10-r0 \
   make=4.3-r0 \
-  g++=10.2.1_pre1-r3
+  g++=10.2.1_pre1-r3 \
+  mysql-client
 
 # Add configuration files
 COPY image-files/ /
